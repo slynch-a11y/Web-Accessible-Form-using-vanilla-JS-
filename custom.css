@@ -1,0 +1,10 @@
+#errors{
+  display: none;
+}
+a:hover{
+  color: #84152c !important;
+  text-decoration-line: underline !important;
+}
+a {
+ color: #84152c !important;
+}
