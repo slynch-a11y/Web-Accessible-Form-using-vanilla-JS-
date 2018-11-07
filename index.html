@@ -10,8 +10,8 @@
   </head>
   <body class="container">
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a href="#" class="navbar-brand">Logo/Name Goes Here</a>
+  <nav class="navbar navbar-expand-lg navbar-dark blue">
+    <a href="#" class="navbar-brand">Yale University</a>
     <button aria-label="collapsible menu" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"><i class="navbar-toggler-icon"></i></button>
     <div class="collapse navbar-collapse" id="navbarMenu">
     <ul class="navbar-nav ml-auto">
@@ -27,7 +27,7 @@
 		<div class="container mt-5">
 
      		<h1>Main Heading for this Page</h1>
-     		<p>Please fill out the form below. Lorem ipsum dolor sit amet, dicta postulant urbanitas sed et, id vel luptatum recteque expetenda. Alii alienum no cum, placerat reformidans ad pro, doctus assentior scriptorem sed et. Semper antiopam no eam. Quo veri voluptua te, per et putent luptatum salutandi, modo impedit volutpat ex mea. Mel ea reque affert disputand</p>
+     		<p>Please fill out the form below. Instructions go here. Lorem ipsum dolor sit amet, dicta postulant urbanitas sed et, id vel luptatum recteque expetenda. Alii alienum no cum, placerat reformidans ad pro, doctus assentior scriptorem sed et. Semper antiopam no eam. Quo veri voluptua te, per et putent luptatum salutandi, modo impedit volutpat ex mea. Mel ea reque affert disputand</p>
 <div id="errors" class="alert alert-danger" role="alert">
 Here are the errors in the form below:
 <div id="errorMessage" tabIndex="-1"></div>
@@ -37,7 +37,7 @@ Here are the errors in the form below:
 
  <div class="container form-group">
  <div class="row">
-    <div class="col">
+    <div class="col-sm">
 			  <fieldset>
 			  <legend>Register Person 1</legend>
         <div>
@@ -48,19 +48,19 @@ Here are the errors in the form below:
         <input class="form-control" type='text' name='firstName1' id='firstname1' aria-labelledby='firstnameinfo1'></input>
         </div>
         <small>First name or preferred name</small>
-        <div>
+        <div class="mt-3">
         <label for='lastname1'>Last Name (required)</label>
         </div>
         <div>
 			  <input class="form-control" type='text' name='lastName1' id='lastname1'></input>
         </div>
-        <div>
+        <div class="mt-3">
         <label for='email1'>Email (required)</label>
         </div>
         <div>
-			  <input class="form-control" type='text' name='email1' id='email1' placeholder='firstname.lastname@email.com'></input>
+			  <input class="form-control" type='text' name='email1' id='email1' placeholder='firstname.lastname@yale.edu'></input>
         </div>
-        <div>
+        <div class="mt-3">
         <div id='phoneinfo1' hidden>Phone required. Include a phone number with area code.</div>
         <label for='phone1'>Phone with area code (required)</label>
         </div>
@@ -70,7 +70,7 @@ Here are the errors in the form below:
         </fieldset>
 
       </div>
-      <div class="col">
+      <div class="col-sm">
 			  <fieldset>
 			  <legend>Register Person 2</legend>
         <div>
@@ -81,19 +81,19 @@ Here are the errors in the form below:
         <input class="form-control" type='text' name='firstName2' id='firstname2' aria-labelledby='firstnameinfo2'></input>
         </div>
         <small  id='firstnameinfo2' >First name or preferred name</small>
-        <div>
+        <div class="mt-3">
         <label for='lastname2'>Last Name </label>
         </div>
         <div>
 			  <input class="form-control" type='text' name='lastName2' id='lastname2'></input>
         </div>
-        <div>
+        <div class="mt-3">
         <label for='email2'>Email </label>
         </div>
         <div>
-			  <input class="form-control" type='text' name='email2' id='email2' placeholder="firstname.lastname@email.com"></input>
+			  <input class="form-control" type='text' name='email2' id='email2' placeholder="firstname.lastname@yale.edu"></input>
         </div>
-        <div>
+        <div class="mt-3">
         <label for='phone2'>Phone with area code </label>
         </div>
         <div>
@@ -140,7 +140,7 @@ Here are the errors in the form below:
 <div class="container">
 <div class="row">
 <div class="col mt-4">
-      <input type="submit" name="submit" value="Submit">
+      <input type="submit" name="submit" value="Submit" class="mr-3">
       <button type="button" onclick="clearForm()">Clear Form</button>
       </form>
       </div>
@@ -152,15 +152,9 @@ Here are the errors in the form below:
 
 
 </main>
-<footer>
-
-    <div class="container mt-5">
-
-  				<p>My Footer</p>
-          <p>Copyright © 2018</p>
-
-
-  </div>
+<footer class="navbar navbar-expand-lg navbar-dark blue footer-font mt-4">
+    <div class="navbar-brand">Yale University</div>
+    <div class="ml-4">Copyright © 2018</div>
 </footer>
 <script src="main.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
