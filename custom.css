@@ -1,6 +1,9 @@
 #errors{
   display: none;
 }
+#thankYou{
+  display: none;
+}
 a:hover{
   color: white !important;
   text-decoration-line: underline !important;
