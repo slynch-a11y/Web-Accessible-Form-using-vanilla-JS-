@@ -60,6 +60,8 @@ else if (document.forms.myForm.submit.value === 'Submit' && errors.length<1){
   thankYouDiv.style.display = 'block'
   let errorDiv = document.getElementById('errors')
   errorDiv.style.display = 'none'
+  let form = document.getElementById("myForm")
+  form.style.display='none'
 }
 return false
 }
